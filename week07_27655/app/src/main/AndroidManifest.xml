@@ -16,6 +16,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".SecondActivity"
+            android:label="Second Activity"
+            android:parentActivityName="SecondActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="id.ac.umn.week07_27655.SecondActivity"/>
+        </activity>
+        <activity android:name=".DetilVideoActivity" />
     </application>
 
     <uses-feature

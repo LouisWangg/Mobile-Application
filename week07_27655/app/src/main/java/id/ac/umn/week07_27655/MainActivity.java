@@ -16,6 +16,7 @@ import android.widget.VideoView;
 public class MainActivity extends AppCompatActivity {
     private Button foto;
     private Button video;
+    private Button galeri;
     private ImageView kotakFoto;
     private VideoView kotakVideo;
     static final int REQUEST_IMAGE_CAPTURE = 1;
@@ -28,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
         foto = findViewById(R.id.button);
         video = findViewById(R.id.button2);
+        galeri = findViewById(R.id.button3);
         kotakFoto = findViewById(R.id.imageView);
         kotakVideo = findViewById(R.id.videoView);
 
@@ -51,6 +53,14 @@ public class MainActivity extends AppCompatActivity {
                 if(takeVideoIntent.resolveActivity(getPackageManager()) != null) {
                     startActivityForResult(takeVideoIntent, REQUEST_VIDEO_CAPTURE);
                 }
+            }
+        });
+
+        galeri.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent galleryIntent = new Intent(MainActivity.this, SecondActivity.class);
+                startActivityForResult(galleryIntent, 1);
             }
         });
     }
