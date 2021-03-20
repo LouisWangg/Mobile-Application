@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textSize="28dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="PROFILE"/>
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/profile" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:text="Nama : Louis Fernando Yanto Wang" />
+    <TextView
+        android:layout_width="170dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:text="NIM : 00000027655" />
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:text="Kelas : AL" />
+</LinearLayout>

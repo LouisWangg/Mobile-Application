@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="150dp"
+    android:layout_gravity="center"
+    android:padding="5dp"
+    android:orientation="vertical"
+    android:background="@color/primaryDark">
+
+    <TextView
+        android:layout_width="245dp"
+        android:layout_height="25dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="25dp"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="Selamat Datang" />
+    <TextView
+        android:layout_width="245dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:textSize="12dp"
+        android:textColor="@color/white"
+        android:text="Louis Fernando Yanto Wang" />
+    <TextView
+        android:layout_width="245dp"
+        android:layout_height="15dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="12dp"
+        android:textColor="@color/white"
+        android:text="00000027655" />
+    <TextView
+        android:layout_width="170dp"
+        android:layout_height="15dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="8dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="Click anywhere besides the pop-up to continue" />
+
+</LinearLayout>
