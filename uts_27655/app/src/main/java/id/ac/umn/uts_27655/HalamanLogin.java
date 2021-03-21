@@ -26,7 +26,6 @@ public class HalamanLogin extends AppCompatActivity {
         username = findViewById(R.id.username);
         password = findViewById(R.id.password);
         loginIn = findViewById(R.id.loginInButton);
-        dialog.setContentView(R.layout.failed_login);
 
         loginIn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -42,6 +41,7 @@ public class HalamanLogin extends AppCompatActivity {
                                                HalamanListLagu.class);
             startActivityForResult(loginInIntent, 1);
         } else {
+            dialog.setContentView(R.layout.failed_login);
             dialog.show();
         }
     }
