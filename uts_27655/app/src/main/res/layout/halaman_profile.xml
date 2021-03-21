@@ -20,14 +20,14 @@
         android:text="PROFILE"/>
     <ImageView
         android:layout_width="150dp"
-        android:layout_height="250dp"
+        android:layout_height="150dp"
         android:layout_marginTop="25dp"
         android:layout_gravity="center"
         app:srcCompat="@drawable/profile" />
     <TextView
         android:layout_width="300dp"
         android:layout_height="25dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:layout_gravity="center"
         android:textColor="@color/white"
         android:textSize="18dp"
@@ -35,7 +35,7 @@
     <TextView
         android:layout_width="170dp"
         android:layout_height="25dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="10dp"
         android:layout_gravity="center"
         android:textColor="@color/white"
         android:textSize="18dp"
@@ -43,9 +43,66 @@
     <TextView
         android:layout_width="80dp"
         android:layout_height="25dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="10dp"
         android:layout_gravity="center"
         android:textColor="@color/white"
         android:textSize="18dp"
         android:text="Kelas : AL" />
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="25dp"
+        android:textColor="@color/white"
+        android:textSize="13dp"
+        android:textStyle="bold"
+        android:text="Referensi :" />
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="25dp"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        android:text="Youtube : https://www.youtube.com/watch?v=0DH2tZjJtm0" />
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="25dp"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        android:text="                   https://www.youtube.com/watch?v=GAdGmJxfcf8" />
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="25dp"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        android:text="                   https://www.youtube.com/watch?v=IauxP5xgu_s" />
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="25dp"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        android:text="Website : https://www.canva.com/colors/color-meanings/white/" />
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="25dp"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        android:text="Teman : Liana" />
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="25dp"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        android:text="                Jessica Valeria" />
 </LinearLayout>
