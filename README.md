@@ -1,1 +1,1 @@
-# Making different kinds of function in Android
+# Different kinds of function in Android
